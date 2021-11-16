@@ -9,6 +9,8 @@ How to run and make changes locally:
 >
 > source .ven/bin/activate
 >
+> pip install -r requirements.txt
+>
 > python3 <em>filename</em>.py
 
 - Create a branch to make changes and switch to it:
