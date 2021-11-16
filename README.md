@@ -6,7 +6,9 @@ How to run and make changes locally:
 
 - Install venv to create virtual environments
 > python3.9 -m venv .venv
+>
 > source .ven/bin/activate
+>
 > python3 <em>filename</em>.py
 
 - Create a branch to make changes and switch to it:
@@ -16,7 +18,9 @@ How to run and make changes locally:
 
 - Commit them
 > git add file_that_you_have_changed.py
+>
 > git commit -m "relevant commit message"
+>
 > git push origin branch-name
 
 - Go to your branch on Github's website and open a PR and add others as reviewers
